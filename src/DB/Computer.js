@@ -1,43 +1,43 @@
 const tests = [
     {
-        savol:"",
-        javob:""
+        savol:"Olti sathli kompyuterlarning nolinchi sathi qanday nomlanadi?",
+        javob:"#raqamli mantiqiy sath"
     },
     {
-        savol:"",
-        javob:""
+        savol:"Olti sathli kompyuterlarning birinchi sathi qanday nomlanadi?",
+        javob:"#mikroarxitektura sathi"
     },
     {
-        savol:"",
-        javob:""
+        savol:"Olti sathli kompyuterlarning ikkinchi sathi qanday nomlanadi?",
+        javob:"#buyruqlar to‘plami arxitekturasi sathi"
     },
     {
-        savol:"",
-        javob:""
+        savol:"Olti sathli kompyuterlarning uchinchi sathi qanday nomlanadi?",
+        javob:"#operatsion tizim sathi"
     },
     {
-        savol:"",
-        javob:""
+        savol:"Olti sathli kompyuterlarning to‘rtinchi sathi qanday nomlanadi?",
+        javob:"#assembler sathi"
     },
     {
-        savol:"",
-        javob:""
+        savol:"Olti sathli kompyuterlarning beshinchi sathi qanday nomlanadi?",
+        javob:"#amaliy tillar dasturchilari sathi"
     },
     {
-        savol:"",
-        javob:""
+        savol:"Raqamli mantiqiy sathning obyektlari qanday nomlanadi?",
+        javob:"#ventillar"
     },
     {
-        savol:"",
-        javob:""
+        savol:"Bir bitli xotira elementi deganda nima tushuniladi?",
+        javob:"#trigger"
     },
     {
-        savol:"",
-        javob:""
+        savol:"Guruhga birlashtirilgan triggerlar yordamida nima hosil qilinadi?",
+        javob:"#registr"
     },
     {
-        savol:"",
-        javob:""
+        savol:"Inkorlash elementining kirishi nechta bo‘lishi mumkin?",
+        javob:"#1"
     },
     {
         savol:"",

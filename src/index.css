@@ -19,3 +19,10 @@ code {
   --mui-palette-primary-contrastText: #fff;
   /* ...other variables */
 }
+.box{
+  width: 100%;
+  border-radius: 11px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
