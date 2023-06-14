@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Main = ({ tests }) => {
-
+  console.log(tests.length);
     const [searchTerm, setSearchTerm] = useState('');
     const [searchResults, setSearchResults] = useState([]);
 
@@ -25,6 +25,7 @@ const Main = ({ tests }) => {
                     <div className="row  mt-5 justify-content-center">
                         <div className="col-auto">
                             <h1>SEARCH</h1>
+                            <span>{tests.length} dona</span>
                         </div>
                     </div>
                     <div className="row justify-content-center">
