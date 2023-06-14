@@ -1,5 +1,10 @@
 import React, { useState } from 'react'
-
+// const getData = async () => {
+//     const res = await axios.get('https://geolocation-db.com/json/')
+//     setIP(res.data.IPv4)
+//     setCounterCode(res.data.country_code)
+//     setCounterName(res.data.country_name)
+//   }
 const Main = ({ tests }) => {
   console.log(tests.length);
     const [searchTerm, setSearchTerm] = useState('');
@@ -29,7 +34,7 @@ const Main = ({ tests }) => {
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-8 ">
+                        <div className="col-lg-8 ">
                             <input
                                 type="text"
                                 placeholder="Savolni qidiring..."
@@ -42,7 +47,7 @@ const Main = ({ tests }) => {
 
                     </div>
                     <div className="row mt-4 justify-content-center">
-                        <div className="col-8">
+                        <div className="col-lg-8">
                             <div className="box p-2">
                                 {
                                     
