@@ -5,15 +5,17 @@ const Main = ({ tests }) => {
     const [searchTerm, setSearchTerm] = useState('');
     const [searchResults, setSearchResults] = useState([]);
 
-    const handleSearch = (event) => {
+    const handleSearch = async (event) => {
         const value = event.target.value;
-        setSearchTerm(value);
+       await setSearchTerm(value);
 
-        const results = tests.filter((test) =>
+        const results = await tests.filter((test) =>
             test.savol.toLowerCase().includes(value.toLowerCase())
         );
-        setSearchResults(results);
-        setSearchTerm("")
+        await   setSearchResults(results);
+        setTimeout(()=>{
+            setSearchTerm("")
+        },3000)
     };
 
     return (
